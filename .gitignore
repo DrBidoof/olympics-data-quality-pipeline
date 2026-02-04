@@ -1,0 +1,24 @@
+# Raw data (large / original files)
+data/raw/
+
+# Virtual environments
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs & generated reports
+logs/
+reports/
+
+# SQLite database files
+*.db
+*.sqlite
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

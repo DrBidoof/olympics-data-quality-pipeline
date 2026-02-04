@@ -1,0 +1,302 @@
+﻿,Year,City,Sport,Discipline,Athlete,Code,Gender,Event,Medal,Country
+0,1896,Athens,Aquatics,Swimming,Alfred Hajos,HUN,Men,100M Freestyle,Gold,Hungary
+1,1896,Athens,Aquatics,Swimming,Otto Herschmann,AUT,Men,100M Freestyle,Silver,Austria
+2,1896,Athens,Aquatics,Swimming,Dimitrios Drivas,GRE,Men,100M Freestyle For Sailors,Bronze,Greece
+3,1896,Athens,Aquatics,Swimming,Ioannis Malokinis,GRE,Men,100M Freestyle For Sailors,Gold,Greece
+4,1896,Athens,Aquatics,Swimming,Spiridon Chasapis,GRE,Men,100M Freestyle For Sailors,Silver,Greece
+5,1896,Athens,Aquatics,Swimming,Efstathios Chorophas,GRE,Men,1200M Freestyle,Bronze,Greece
+6,1896,Athens,Aquatics,Swimming,Alfred Hajos,HUN,Men,1200M Freestyle,Gold,Hungary
+7,1896,Athens,Aquatics,Swimming,Joannis Andreou,GRE,Men,1200M Freestyle,Silver,Greece
+8,1896,Athens,Aquatics,Swimming,Efstathios Chorophas,GRE,Men,400M Freestyle,Bronze,Greece
+9,1896,Athens,Aquatics,Swimming,Paul Neumann,AUT,Men,400M Freestyle,Gold,Austria
+10,1896,Athens,Aquatics,Swimming,Antonios Pepanos,GRE,Men,400M Freestyle,Silver,Greece
+11,1896,Athens,Athletics,Athletics,Francis Lane,USA,Men,100M,Bronze,United States
+12,1896,Athens,Athletics,Athletics,Alajos Szokolyi,HUN,Men,100M,Bronze,Hungary
+13,1896,Athens,Athletics,Athletics,Thomas Burke,USA,Men,100M,Gold,United States
+14,1896,Athens,Athletics,Athletics,Fritz Hofmann,GER,Men,100M,Silver,Germany
+15,1896,Athens,Athletics,Athletics,Thomas Curtis,USA,Men,110M Hurdles,Gold,United States
+16,1896,Athens,Athletics,Athletics,Grantley Goulding,GBR,Men,110M Hurdles,Silver,United Kingdom
+17,1896,Athens,Athletics,Athletics,Albin Lermusiaux,FRA,Men,1500M,Bronze,France
+18,1896,Athens,Athletics,Athletics,Edwin Flack,AUS,Men,1500M,Gold,Australia
+19,1896,Athens,Athletics,Athletics,Arthur Blake,USA,Men,1500M,Silver,United States
+20,1896,Athens,Athletics,Athletics,Charles Gmelin,GBR,Men,400M,Bronze,United Kingdom
+21,1896,Athens,Athletics,Athletics,Thomas Burke,USA,Men,400M,Gold,United States
+22,1896,Athens,Athletics,Athletics,Herbert Jamison,USA,Men,400M,Silver,United States
+23,1896,Athens,Athletics,Athletics,Dimitrios Golemis,GRE,Men,800M,Bronze,Greece
+24,1896,Athens,Athletics,Athletics,Edwin Flack,AUS,Men,800M,Gold,Australia
+25,1896,Athens,Athletics,Athletics,Nandor Dani,HUN,Men,800M,Silver,Hungary
+26,1896,Athens,Athletics,Athletics,Sotirios Versis,GRE,Men,Discus Throw,Bronze,Greece
+27,1896,Athens,Athletics,Athletics,Robert Garrett,USA,Men,Discus Throw,Gold,United States
+28,1896,Athens,Athletics,Athletics,Panagiotis Paraskevopoulos,GRE,Men,Discus Throw,Silver,Greece
+29,1896,Athens,Athletics,Athletics,Ellery Clark,USA,Men,High Jump,Gold,United States
+30,1896,Athens,Athletics,Athletics,James Connolly,USA,Men,High Jump,Silver,United States
+31,1896,Athens,Athletics,Athletics,Robert Garrett,USA,Men,High Jump,Silver,United States
+32,1896,Athens,Athletics,Athletics,James Connolly,USA,Men,Long Jump,Bronze,United States
+33,1896,Athens,Athletics,Athletics,Ellery Clark,USA,Men,Long Jump,Gold,United States
+34,1896,Athens,Athletics,Athletics,Robert Garrett,USA,Men,Long Jump,Silver,United States
+35,1896,Athens,Athletics,Athletics,Gyula Kellner,HUN,Men,Marathon,Bronze,Hungary
+36,1896,Athens,Athletics,Athletics,Spyridon Louis,GRE,Men,Marathon,Gold,Greece
+37,1896,Athens,Athletics,Athletics,Kharilaos Vasilakos,GRE,Men,Marathon,Silver,Greece
+38,1896,Athens,Athletics,Athletics,Evangelos Damaskos,GRE,Men,Pole Vault,Bronze,Greece
+39,1896,Athens,Athletics,Athletics,Ioannis Theodoropoulos,GRE,Men,Pole Vault,Bronze,Greece
+40,1896,Athens,Athletics,Athletics,William Welles Hoyt,USA,Men,Pole Vault,Gold,United States
+41,1896,Athens,Athletics,Athletics,Albert Tyler,USA,Men,Pole Vault,Silver,United States
+42,1896,Athens,Athletics,Athletics,Georgios Papasideris,GRE,Men,Shot Put,Bronze,Greece
+43,1896,Athens,Athletics,Athletics,Robert Garrett,USA,Men,Shot Put,Gold,United States
+44,1896,Athens,Athletics,Athletics,Miltiadis Gouskos,GRE,Men,Shot Put,Silver,Greece
+45,1896,Athens,Athletics,Athletics,Ioannis Persakis,GRE,Men,Triple Jump,Bronze,Greece
+46,1896,Athens,Athletics,Athletics,James Connolly,USA,Men,Triple Jump,Gold,United States
+47,1896,Athens,Athletics,Athletics,Alexandre Tufferi,FRA,Men,Triple Jump,Silver,France
+48,1896,Athens,Cycling,Cycling Road,Edward Battel,GBR,Men,Individual Road Race,Bronze,United Kingdom
+49,1896,Athens,Cycling,Cycling Road,Aristidis Konstantinidis,GRE,Men,Individual Road Race,Gold,Greece
+50,1896,Athens,Cycling,Cycling Road,August Goedrich,GER,Men,Individual Road Race,Silver,Germany
+51,1896,Athens,Cycling,Cycling Track,LÃ©on Flameng,FRA,Men,100KM,Gold,France
+52,1896,Athens,Cycling,Cycling Track,Georgios Kolettis,GRE,Men,100KM,Silver,Greece
+53,1896,Athens,Cycling,Cycling Track,Adolf Schmal,AUT,Men,10KM,Bronze,Austria
+54,1896,Athens,Cycling,Cycling Track,Paul Masson,FRA,Men,10KM,Gold,France
+55,1896,Athens,Cycling,Cycling Track,LÃ©on Flameng,FRA,Men,10KM,Silver,France
+56,1896,Athens,Cycling,Cycling Track,Adolf Schmal,AUT,Men,12-Hour Race,Gold,Austria
+57,1896,Athens,Cycling,Cycling Track,Frank Keeping,GBR,Men,12-Hour Race,Silver,United Kingdom
+58,1896,Athens,Cycling,Cycling Track,Adolf Schmal,AUT,Men,1KM Time Trial,Bronze,Austria
+59,1896,Athens,Cycling,Cycling Track,Paul Masson,FRA,Men,1KM Time Trial,Gold,France
+60,1896,Athens,Cycling,Cycling Track,Stamatios Nikolopoulos,GRE,Men,1KM Time Trial,Silver,Greece
+61,1896,Athens,Cycling,Cycling Track,LÃ©on Flameng,FRA,Men,Sprint Indivual,Bronze,France
+62,1896,Athens,Cycling,Cycling Track,Paul Masson,FRA,Men,Sprint Indivual,Gold,France
+63,1896,Athens,Cycling,Cycling Track,Stamatios Nikolopoulos,GRE,Men,Sprint Indivual,Silver,Greece
+64,1896,Athens,Fencing,Fencing,Perikles Pierrakos-Mavromichalis,GRE,Men,Foil Individual,Bronze,Greece
+65,1896,Athens,Fencing,Fencing,EugÃ¨ne-Henri Gravelotte,FRA,Men,Foil Individual,Gold,France
+66,1896,Athens,Fencing,Fencing,Henri Callot,FRA,Men,Foil Individual,Silver,France
+67,1896,Athens,Fencing,Fencing,Leonidas Pyrgos,GRE,Men,"Foil, Masters",Gold,Greece
+68,1896,Athens,Fencing,Fencing,Maurice Perronnet,FRA,Men,"Foil, Masters",Silver,France
+69,1896,Athens,Fencing,Fencing,Holger Nielsen,DEN,Men,Sabre Individual,Bronze,Denmark
+70,1896,Athens,Fencing,Fencing,Ioannis Georgiadis,GRE,Men,Sabre Individual,Gold,Greece
+71,1896,Athens,Fencing,Fencing,Telemachos Karakalos,GRE,Men,Sabre Individual,Silver,Greece
+72,1896,Athens,Gymnastics,Artistic G.,Hermann WeingÃ¤rtner,GER,Men,Horizontal Bar,Gold,Germany
+73,1896,Athens,Gymnastics,Artistic G.,Alfred Flatow,GER,Men,Horizontal Bar,Silver,Germany
+74,1896,Athens,Gymnastics,Artistic G.,Alfred Flatow,GER,Men,Parallel Bars,Gold,Germany
+75,1896,Athens,Gymnastics,Artistic G.,Louis Zutter,SUI,Men,Parallel Bars,Silver,Switzerland
+76,1896,Athens,Gymnastics,Artistic G.,Louis Zutter,SUI,Men,Pommel Horse,Gold,Switzerland
+77,1896,Athens,Gymnastics,Artistic G.,Hermann WeingÃ¤rtner,GER,Men,Pommel Horse,Silver,Germany
+78,1896,Athens,Gymnastics,Artistic G.,Petros Persakis,GRE,Men,Rings,Bronze,Greece
+79,1896,Athens,Gymnastics,Artistic G.,Ioannis Mitropoulos,GRE,Men,Rings,Gold,Greece
+80,1896,Athens,Gymnastics,Artistic G.,Hermann WeingÃ¤rtner,GER,Men,Rings,Silver,Germany
+81,1896,Athens,Gymnastics,Artistic G.,Fritz Hofmann,GER,Men,Rope Climbing,Bronze,Germany
+82,1896,Athens,Gymnastics,Artistic G.,Nicolaos Andriakopoulos,GRE,Men,Rope Climbing,Gold,Greece
+83,1896,Athens,Gymnastics,Artistic G.,Thomasios Xenakis,GRE,Men,Rope Climbing,Silver,Greece
+84,1896,Athens,Gymnastics,Artistic G.,Konrad BÃ¶cker,GER,Men,"Team, Horizontal Bar",Gold,Germany
+85,1896,Athens,Gymnastics,Artistic G.,Alfred Flatow,GER,Men,"Team, Horizontal Bar",Gold,Germany
+86,1896,Athens,Gymnastics,Artistic G.,Gustav Felix Flatow,GER,Men,"Team, Horizontal Bar",Gold,Germany
+87,1896,Athens,Gymnastics,Artistic G.,Georg Hilmar,GER,Men,"Team, Horizontal Bar",Gold,Germany
+88,1896,Athens,Gymnastics,Artistic G.,Fritz Hofmann,GER,Men,"Team, Horizontal Bar",Gold,Germany
+89,1896,Athens,Gymnastics,Artistic G.,Fritz Manteuffel,GER,Men,"Team, Horizontal Bar",Gold,Germany
+90,1896,Athens,Gymnastics,Artistic G.,Karl Neukirch,GER,Men,"Team, Horizontal Bar",Gold,Germany
+91,1896,Athens,Gymnastics,Artistic G.,Richard RÃ¶stel,GER,Men,"Team, Horizontal Bar",Gold,Germany
+92,1896,Athens,Gymnastics,Artistic G.,Gustav Schuft,GER,Men,"Team, Horizontal Bar",Gold,Germany
+93,1896,Athens,Gymnastics,Artistic G.,Carl Schumann,GER,Men,"Team, Horizontal Bar",Gold,Germany
+94,1896,Athens,Gymnastics,Artistic G.,Hermann WeingÃ¤rtner,GER,Men,"Team, Horizontal Bar",Gold,Germany
+95,1896,Athens,Gymnastics,Artistic G.,Ioannis Chrysaphis,GRE,Men,"Team, Parallel Bars",Bronze,Greece
+96,1896,Athens,Gymnastics,Artistic G.,Phillippos Karvelas,GRE,Men,"Team, Parallel Bars",Bronze,Greece
+97,1896,Athens,Gymnastics,Artistic G.,Dimitrios Loundras,GRE,Men,"Team, Parallel Bars",Bronze,Greece
+98,1896,Athens,Gymnastics,Artistic G.,Ioannis Mitropoulos,GRE,Men,"Team, Parallel Bars",Bronze,Greece
+99,1896,Athens,Gymnastics,Artistic G.,Konrad BÃ¶cker,GER,Men,"Team, Parallel Bars",Gold,Germany
+100,1896,Athens,Gymnastics,Artistic G.,Alfred Flatow,GER,Men,"Team, Parallel Bars",Gold,Germany
+101,1896,Athens,Gymnastics,Artistic G.,Gustav Felix Flatow,GER,Men,"Team, Parallel Bars",Gold,Germany
+102,1896,Athens,Gymnastics,Artistic G.,Georg Hilmar,GER,Men,"Team, Parallel Bars",Gold,Germany
+103,1896,Athens,Gymnastics,Artistic G.,Fritz Hofmann,GER,Men,"Team, Parallel Bars",Gold,Germany
+104,1896,Athens,Gymnastics,Artistic G.,Fritz Manteuffel,GER,Men,"Team, Parallel Bars",Gold,Germany
+105,1896,Athens,Gymnastics,Artistic G.,Karl Neukirch,GER,Men,"Team, Parallel Bars",Gold,Germany
+106,1896,Athens,Gymnastics,Artistic G.,Richard RÃ¶stel,GER,Men,"Team, Parallel Bars",Gold,Germany
+107,1896,Athens,Gymnastics,Artistic G.,Gustav Schuft,GER,Men,"Team, Parallel Bars",Gold,Germany
+108,1896,Athens,Gymnastics,Artistic G.,Carl Schumann,GER,Men,"Team, Parallel Bars",Gold,Germany
+109,1896,Athens,Gymnastics,Artistic G.,Hermann WeingÃ¤rtner,GER,Men,"Team, Parallel Bars",Gold,Germany
+110,1896,Athens,Gymnastics,Artistic G.,Nicolaos Andriakopoulos,GRE,Men,"Team, Parallel Bars",Silver,Greece
+111,1896,Athens,Gymnastics,Artistic G.,Spyros Athanasopoulos,GRE,Men,"Team, Parallel Bars",Silver,Greece
+112,1896,Athens,Gymnastics,Artistic G.,Petros Persakis,GRE,Men,"Team, Parallel Bars",Silver,Greece
+113,1896,Athens,Gymnastics,Artistic G.,Thomasios Xenakis,GRE,Men,"Team, Parallel Bars",Silver,Greece
+114,1896,Athens,Gymnastics,Artistic G.,Hermann WeingÃ¤rtner,GER,Men,Vault,Bronze,Germany
+115,1896,Athens,Gymnastics,Artistic G.,Carl Schumann,GER,Men,Vault,Gold,Germany
+116,1896,Athens,Gymnastics,Artistic G.,Louis Zutter,SUI,Men,Vault,Silver,Switzerland
+117,1896,Athens,Shooting,Shooting,Nikolaos Morakis,GRE,Men,25M Army Pistol,Bronze,Greece
+118,1896,Athens,Shooting,Shooting,John Paine,USA,Men,25M Army Pistol,Gold,United States
+119,1896,Athens,Shooting,Shooting,Sumner Paine,USA,Men,25M Army Pistol,Silver,United States
+120,1896,Athens,Shooting,Shooting,Holger Nielsen,DEN,Men,25M Rapid Fire Pistol (60 Shots),Bronze,Denmark
+121,1896,Athens,Shooting,Shooting,Joannis Phrangoudis,GRE,Men,25M Rapid Fire Pistol (60 Shots),Gold,Greece
+122,1896,Athens,Shooting,Shooting,Georgios Orphanidis,GRE,Men,25M Rapid Fire Pistol (60 Shots),Silver,Greece
+123,1896,Athens,Shooting,Shooting,Joannis Phrangoudis,GRE,Men,50M Pistol (60 Shots),Bronze,Greece
+124,1896,Athens,Shooting,Shooting,Sumner Paine,USA,Men,50M Pistol (60 Shots),Gold,United States
+125,1896,Athens,Shooting,Shooting,Holger Nielsen,DEN,Men,50M Pistol (60 Shots),Silver,Denmark
+126,1896,Athens,Shooting,Shooting,Nicolaos Trikupis,GRE,Men,"Army Rifle, 200M",Bronze,Greece
+127,1896,Athens,Shooting,Shooting,Pantelis Karasevdas,GRE,Men,"Army Rifle, 200M",Gold,Greece
+128,1896,Athens,Shooting,Shooting,Pavlos Pavlidis,GRE,Men,"Army Rifle, 200M",Silver,Greece
+129,1896,Athens,Shooting,Shooting,Viggo Jensen,DEN,Men,"Army Rifle, 300M",Bronze,Denmark
+130,1896,Athens,Shooting,Shooting,Georgios Orphanidis,GRE,Men,"Army Rifle, 300M",Gold,Greece
+131,1896,Athens,Shooting,Shooting,Joannis Phrangoudis,GRE,Men,"Army Rifle, 300M",Silver,Greece
+132,1896,Athens,Tennis,Tennis,Edwin Flack,ZZX,Men,Doubles,Bronze,
+133,1896,Athens,Tennis,Tennis,George Stuart Robertson,ZZX,Men,Doubles,Bronze,
+134,1896,Athens,Tennis,Tennis,John Boland,ZZX,Men,Doubles,Gold,
+135,1896,Athens,Tennis,Tennis,Friedrich Traun,ZZX,Men,Doubles,Gold,
+136,1896,Athens,Tennis,Tennis,Dionysios Kasdaglis,ZZX,Men,Doubles,Silver,
+137,1896,Athens,Tennis,Tennis,Demetrios Petrokokkinos,ZZX,Men,Doubles,Silver,
+138,1896,Athens,Tennis,Tennis,Konstantinos Paspatis,GRE,Men,Singles,Bronze,Greece
+139,1896,Athens,Tennis,Tennis,Momcsillo Tapavicza,HUN,Men,Singles,Bronze,Hungary
+140,1896,Athens,Tennis,Tennis,John Boland,GBR,Men,Singles,Gold,United Kingdom
+141,1896,Athens,Tennis,Tennis,Dionysios Kasdaglis,GRE,Men,Singles,Silver,Greece
+142,1896,Athens,Weightlifting,Weightlifting,Alexandros Nikolopoulos,GRE,Men,Heavyweight - One Hand Lift,Bronze,Greece
+143,1896,Athens,Weightlifting,Weightlifting,Launceston Elliott,GBR,Men,Heavyweight - One Hand Lift,Gold,United Kingdom
+144,1896,Athens,Weightlifting,Weightlifting,Viggo Jensen,DEN,Men,Heavyweight - One Hand Lift,Silver,Denmark
+145,1896,Athens,Weightlifting,Weightlifting,Sotirios Versis,GRE,Men,Heavyweight - Two Hand Lift,Bronze,Greece
+146,1896,Athens,Weightlifting,Weightlifting,Viggo Jensen,DEN,Men,Heavyweight - Two Hand Lift,Gold,Denmark
+147,1896,Athens,Weightlifting,Weightlifting,Launceston Elliott,GBR,Men,Heavyweight - Two Hand Lift,Silver,United Kingdom
+148,1896,Athens,Wrestling,Wrestling Gre-R,Stephanos Christopoulos,GRE,Men,Open Event,Bronze,Greece
+149,1896,Athens,Wrestling,Wrestling Gre-R,Carl Schumann,GER,Men,Open Event,Gold,Germany
+150,1896,Athens,Wrestling,Wrestling Gre-R,Georgios Tsitas,GRE,Men,Open Event,Silver,Greece
+151,1900,Paris,Aquatics,Swimming,Zoltan Halmay,HUN,Men,1500M Freestyle,Bronze,Hungary
+152,1900,Paris,Aquatics,Swimming,John Arthur Jarvis,GBR,Men,1500M Freestyle,Gold,United Kingdom
+153,1900,Paris,Aquatics,Swimming,Otto Wahle,AUT,Men,1500M Freestyle,Silver,Austria
+154,1900,Paris,Aquatics,Swimming,Johannes Drost,NED,Men,200M Backstroke,Bronze,Netherlands
+155,1900,Paris,Aquatics,Swimming,Ernst Hoppenberg,GER,Men,200M Backstroke,Gold,Germany
+156,1900,Paris,Aquatics,Swimming,Karl Ruberl,AUT,Men,200M Backstroke,Silver,Austria
+157,1900,Paris,Aquatics,Swimming,Karl Ruberl,AUT,Men,200M Freestyle,Bronze,Austria
+158,1900,Paris,Aquatics,Swimming,Frederick C.V. Lane,AUS,Men,200M Freestyle,Gold,Australia
+159,1900,Paris,Aquatics,Swimming,Zoltan Halmay,HUN,Men,200M Freestyle,Silver,Hungary
+160,1900,Paris,Aquatics,Swimming,Peter Kemp,GBR,Men,200M Obstacle Event,Bronze,United Kingdom
+161,1900,Paris,Aquatics,Swimming,Frederick C.V. Lane,AUS,Men,200M Obstacle Event,Gold,Australia
+162,1900,Paris,Aquatics,Swimming,Otto Wahle,AUT,Men,200M Obstacle Event,Silver,Austria
+163,1900,Paris,Aquatics,Swimming,Houben,FRA,Men,200M Team Swimming,Bronze,France
+164,1900,Paris,Aquatics,Swimming,Jean Leuillieux,FRA,Men,200M Team Swimming,Bronze,France
+165,1900,Paris,Aquatics,Swimming,Louis Martin,FRA,Men,200M Team Swimming,Bronze,France
+166,1900,Paris,Aquatics,Swimming,DÃ©sirÃ© Merchez,FRA,Men,200M Team Swimming,Bronze,France
+167,1900,Paris,Aquatics,Swimming,Tartara,FRA,Men,200M Team Swimming,Bronze,France
+168,1900,Paris,Aquatics,Swimming,Julius Frey,GER,Men,200M Team Swimming,Gold,Germany
+169,1900,Paris,Aquatics,Swimming,Max Hainle,GER,Men,200M Team Swimming,Gold,Germany
+170,1900,Paris,Aquatics,Swimming,Ernst Hoppenberg,GER,Men,200M Team Swimming,Gold,Germany
+171,1900,Paris,Aquatics,Swimming,Max SchÃ¶ne,GER,Men,200M Team Swimming,Gold,Germany
+172,1900,Paris,Aquatics,Swimming,Herbert Von Petersdorff,GER,Men,200M Team Swimming,Gold,Germany
+173,1900,Paris,Aquatics,Swimming,Bertrand,FRA,Men,200M Team Swimming,Silver,France
+174,1900,Paris,Aquatics,Swimming,Cadet,FRA,Men,200M Team Swimming,Silver,France
+175,1900,Paris,Aquatics,Swimming,Maurice Hochepied,FRA,Men,200M Team Swimming,Silver,France
+176,1900,Paris,Aquatics,Swimming,Victor Hochepied,FRA,Men,200M Team Swimming,Silver,France
+177,1900,Paris,Aquatics,Swimming,Verbecke,FRA,Men,200M Team Swimming,Silver,France
+178,1900,Paris,Aquatics,Swimming,Louis Martin,FRA,Men,4000M Freestyle,Bronze,France
+179,1900,Paris,Aquatics,Swimming,John Arthur Jarvis,GBR,Men,4000M Freestyle,Gold,United Kingdom
+180,1900,Paris,Aquatics,Swimming,Zoltan Halmay,HUN,Men,4000M Freestyle,Silver,Hungary
+181,1900,Paris,Aquatics,Swimming,Peder Lykkeberg,DEN,Men,Underwater Swimming,Bronze,Denmark
+182,1900,Paris,Aquatics,Swimming,Charles De Vendeville,FRA,Men,Underwater Swimming,Gold,France
+183,1900,Paris,Aquatics,Swimming,AndrÃ© Six,FRA,Men,Underwater Swimming,Silver,France
+184,1900,Paris,Aquatics,Water polo,Thomas Burgess,FRA,Men,Water Polo,Bronze,France
+185,1900,Paris,Aquatics,Water polo,Coulon,FRA,Men,Water Polo,Bronze,France
+186,1900,Paris,Aquatics,Water polo,Alphonse Decuyper,FRA,Men,Water Polo,Bronze,France
+187,1900,Paris,Aquatics,Water polo,Devenot,FRA,Men,Water Polo,Bronze,France
+188,1900,Paris,Aquatics,Water polo,Fardelle,FRA,Men,Water Polo,Bronze,France
+189,1900,Paris,Aquatics,Water polo,Favier,FRA,Men,Water Polo,Bronze,France
+190,1900,Paris,Aquatics,Water polo,Louis Laufray,FRA,Men,Water Polo,Bronze,France
+191,1900,Paris,Aquatics,Water polo,Leriche,FRA,Men,Water Polo,Bronze,France
+192,1900,Paris,Aquatics,Water polo,Louis Martin,FRA,Men,Water Polo,Bronze,France
+193,1900,Paris,Aquatics,Water polo,DÃ©sirÃ© Merchez,FRA,Men,Water Polo,Bronze,France
+194,1900,Paris,Aquatics,Water polo,Henri Peslier,FRA,Men,Water Polo,Bronze,France
+195,1900,Paris,Aquatics,Water polo,Pesloy,FRA,Men,Water Polo,Bronze,France
+196,1900,Paris,Aquatics,Water polo,Charles Treffel,FRA,Men,Water Polo,Bronze,France
+197,1900,Paris,Aquatics,Water polo,Paul Vasseur,FRA,Men,Water Polo,Bronze,France
+198,1900,Paris,Aquatics,Water polo,Thomas Coe,GBR,Men,Water Polo,Gold,United Kingdom
+199,1900,Paris,Aquatics,Water polo,John Henry Derbyshire,GBR,Men,Water Polo,Gold,United Kingdom
+200,1900,Paris,Aquatics,Water polo,Peter Kemp,GBR,Men,Water Polo,Gold,United Kingdom
+201,1900,Paris,Aquatics,Water polo,William Lister,GBR,Men,Water Polo,Gold,United Kingdom
+202,1900,Paris,Aquatics,Water polo,Arthur Robertson,GBR,Men,Water Polo,Gold,United Kingdom
+203,1900,Paris,Aquatics,Water polo,Eric Robinson,GBR,Men,Water Polo,Gold,United Kingdom
+204,1900,Paris,Aquatics,Water polo,George Wilkinson,GBR,Men,Water Polo,Gold,United Kingdom
+205,1900,Paris,Aquatics,Water polo,Henri Cohen,BEL,Men,Water Polo,Silver,Belgium
+206,1900,Paris,Aquatics,Water polo,Jean De Backer,BEL,Men,Water Polo,Silver,Belgium
+207,1900,Paris,Aquatics,Water polo,Victor De Behr,BEL,Men,Water Polo,Silver,Belgium
+208,1900,Paris,Aquatics,Water polo,Fernand Feyaerts,BEL,Men,Water Polo,Silver,Belgium
+209,1900,Paris,Aquatics,Water polo,Oscar Gregoire,BEL,Men,Water Polo,Silver,Belgium
+210,1900,Paris,Aquatics,Water polo,Albert Michant,BEL,Men,Water Polo,Silver,Belgium
+211,1900,Paris,Aquatics,Water polo,Victor Sonnemans,BEL,Men,Water Polo,Silver,Belgium
+212,1900,Paris,Archery,Archery,Charles FrÃ©dÃ©ric Petit,FRA,Men,"Au Chapelet, 33M",Bronze,France
+213,1900,Paris,Archery,Archery,Hubert Van Innis,BEL,Men,"Au Chapelet, 33M",Gold,Belgium
+214,1900,Paris,Archery,Archery,Victor Thibaud,FRA,Men,"Au Chapelet, 33M",Silver,France
+215,1900,Paris,Archery,Archery,Emile Mercier,FRA,Men,"Au Chapelet, 50M",Bronze,France
+216,1900,Paris,Archery,Archery,EugÃ¨ne Mougin,FRA,Men,"Au Chapelet, 50M",Gold,France
+217,1900,Paris,Archery,Archery,Henri Helle,FRA,Men,"Au Chapelet, 50M",Silver,France
+218,1900,Paris,Archery,Archery,Charles FrÃ©dÃ©ric Petit,FRA,Men,"Au Cordon DorÃ©, 33M",Bronze,France
+219,1900,Paris,Archery,Archery,Hubert Van Innis,BEL,Men,"Au Cordon DorÃ©, 33M",Gold,Belgium
+220,1900,Paris,Archery,Archery,Victor Thibaud,FRA,Men,"Au Cordon DorÃ©, 33M",Silver,France
+221,1900,Paris,Archery,Archery,Emile Fisseux,FRA,Men,"Au Cordon DorÃ©, 50M",Bronze,France
+222,1900,Paris,Archery,Archery,Henri Herouin,FRA,Men,"Au Cordon DorÃ©, 50M",Gold,France
+223,1900,Paris,Archery,Archery,Hubert Van Innis,BEL,Men,"Au Cordon DorÃ©, 50M",Silver,Belgium
+224,1900,Paris,Archery,Archery,Emmanuel Foulon,BEL,Men,Sur La Perche Ã€ La Herse,Gold,Belgium
+225,1900,Paris,Archery,Archery,Jr. Druart,BEL,Men,Sur La Perche Ã€ La Herse,Silver,Belgium
+226,1900,Paris,Archery,Archery,Auguste Serrurier,FRA,Men,Sur La Perche Ã€ La Herse,Silver,France
+227,1900,Paris,Archery,Archery,Louis Glineux,BEL,Men,Sur La Perche Ã€ La Pyramide,Bronze,Belgium
+228,1900,Paris,Archery,Archery,Emile Grumiaux,FRA,Men,Sur La Perche Ã€ La Pyramide,Gold,France
+229,1900,Paris,Archery,Archery,Auguste Serrurier,FRA,Men,Sur La Perche Ã€ La Pyramide,Silver,France
+230,1900,Paris,Athletics,Athletics,Stanley Rowley,AUS,Men,100M,Bronze,Australia
+231,1900,Paris,Athletics,Athletics,Francis Jarvis,USA,Men,100M,Gold,United States
+232,1900,Paris,Athletics,Athletics,Walter B. John Tewksbury,USA,Men,100M,Silver,United States
+233,1900,Paris,Athletics,Athletics,Frederick Moloney,USA,Men,110M Hurdles,Bronze,United States
+234,1900,Paris,Athletics,Athletics,Alvin Kraenzlein,USA,Men,110M Hurdles,Gold,United States
+235,1900,Paris,Athletics,Athletics,John Mclean,USA,Men,110M Hurdles,Silver,United States
+236,1900,Paris,Athletics,Athletics,John Bray,USA,Men,1500M,Bronze,United States
+237,1900,Paris,Athletics,Athletics,Charles Bennett,GBR,Men,1500M,Gold,United Kingdom
+238,1900,Paris,Athletics,Athletics,Henri Deloge,FRA,Men,1500M,Silver,France
+239,1900,Paris,Athletics,Athletics,Stanley Rowley,AUS,Men,200M,Bronze,Australia
+240,1900,Paris,Athletics,Athletics,Walter B. John Tewksbury,USA,Men,200M,Gold,United States
+241,1900,Paris,Athletics,Athletics,Norman Pritchard,IND,Men,200M,Silver,India
+242,1900,Paris,Athletics,Athletics,Walter B. John Tewksbury,USA,Men,200M Hurdles,Bronze,United States
+243,1900,Paris,Athletics,Athletics,Alvin Kraenzlein,USA,Men,200M Hurdles,Gold,United States
+244,1900,Paris,Athletics,Athletics,Norman Pritchard,IND,Men,200M Hurdles,Silver,India
+245,1900,Paris,Athletics,Athletics,Jacques Chastanie,FRA,Men,3000M Steeplechase,Bronze,France
+246,1900,Paris,Athletics,Athletics,George Orton,CAN,Men,3000M Steeplechase,Gold,Canada
+247,1900,Paris,Athletics,Athletics,Sidney Robinson,GBR,Men,3000M Steeplechase,Silver,United Kingdom
+248,1900,Paris,Athletics,Athletics,Sidney Robinson,GBR,Men,4000M Steeplechase,Bronze,United Kingdom
+249,1900,Paris,Athletics,Athletics,John Rimmer,GBR,Men,4000M Steeplechase,Gold,United Kingdom
+250,1900,Paris,Athletics,Athletics,Charles Bennett,GBR,Men,4000M Steeplechase,Silver,United Kingdom
+251,1900,Paris,Athletics,Athletics,Ernst Schultz,DEN,Men,400M,Bronze,Denmark
+252,1900,Paris,Athletics,Athletics,Maxwell W.Maxey Long,USA,Men,400M,Gold,United States
+253,1900,Paris,Athletics,Athletics,William Holland,USA,Men,400M,Silver,United States
+254,1900,Paris,Athletics,Athletics,George Orton,CAN,Men,400M Hurdles,Bronze,Canada
+255,1900,Paris,Athletics,Athletics,Walter B. John Tewksbury,USA,Men,400M Hurdles,Gold,United States
+256,1900,Paris,Athletics,Athletics,Henri Tauzin,FRA,Men,400M Hurdles,Silver,France
+257,1900,Paris,Athletics,Athletics,Charles Bennett,ZZX,Men,5000M Team,Gold,
+258,1900,Paris,Athletics,Athletics,John Rimmer,ZZX,Men,5000M Team,Gold,
+259,1900,Paris,Athletics,Athletics,Sidney Robinson,ZZX,Men,5000M Team,Gold,
+260,1900,Paris,Athletics,Athletics,Stanley Rowley,ZZX,Men,5000M Team,Gold,
+261,1900,Paris,Athletics,Athletics,Alfred Tysoe,ZZX,Men,5000M Team,Gold,
+262,1900,Paris,Athletics,Athletics,AndrÃ© Castanet,FRA,Men,5000M Team,Silver,France
+263,1900,Paris,Athletics,Athletics,Michel Champoudry,FRA,Men,5000M Team,Silver,France
+264,1900,Paris,Athletics,Athletics,Jacques Chastanie,FRA,Men,5000M Team,Silver,France
+265,1900,Paris,Athletics,Athletics,Henri Deloge,FRA,Men,5000M Team,Silver,France
+266,1900,Paris,Athletics,Athletics,Gaston Ragueneau,FRA,Men,5000M Team,Silver,France
+267,1900,Paris,Athletics,Athletics,Stanley Rowley,AUS,Men,60M,Bronze,Australia
+268,1900,Paris,Athletics,Athletics,Alvin Kraenzlein,USA,Men,60M,Gold,United States
+269,1900,Paris,Athletics,Athletics,Walter B. John Tewksbury,USA,Men,60M,Silver,United States
+270,1900,Paris,Athletics,Athletics,David Hall,USA,Men,800M,Bronze,United States
+271,1900,Paris,Athletics,Athletics,Alfred Tysoe,GBR,Men,800M,Gold,United Kingdom
+272,1900,Paris,Athletics,Athletics,John Cregan,USA,Men,800M,Silver,United States
+273,1900,Paris,Athletics,Athletics,Richard Sheldon,USA,Men,Discus Throw,Bronze,United States
+274,1900,Paris,Athletics,Athletics,Rudolf Bauer,HUN,Men,Discus Throw,Gold,Hungary
+275,1900,Paris,Athletics,Athletics,Frantisek Janda,BOH,Men,Discus Throw,Silver,
+276,1900,Paris,Athletics,Athletics,Josiah Mccracken,USA,Men,Hammer Throw,Bronze,United States
+277,1900,Paris,Athletics,Athletics,John Jesus Flanagan,USA,Men,Hammer Throw,Gold,United States
+278,1900,Paris,Athletics,Athletics,Thomas Truxton Hare,USA,Men,Hammer Throw,Silver,United States
+279,1900,Paris,Athletics,Athletics,Lajos GÃ¶nczy,HUN,Men,High Jump,Bronze,Hungary
+280,1900,Paris,Athletics,Athletics,Irving Baxter,USA,Men,High Jump,Gold,United States
+281,1900,Paris,Athletics,Athletics,Patrick Joseph Leahy,GBR,Men,High Jump,Silver,United Kingdom
+282,1900,Paris,Athletics,Athletics,Lewis Pendleton Sheldon,USA,Men,"High Jump, Standing",Bronze,United States
+283,1900,Paris,Athletics,Athletics,Ray Ewry,USA,Men,"High Jump, Standing",Gold,United States
+284,1900,Paris,Athletics,Athletics,Irving Baxter,USA,Men,"High Jump, Standing",Silver,United States
+285,1900,Paris,Athletics,Athletics,Patrick Joseph Leahy,GBR,Men,Long Jump,Bronze,United Kingdom
+286,1900,Paris,Athletics,Athletics,Alvin Kraenzlein,USA,Men,Long Jump,Gold,United States
+287,1900,Paris,Athletics,Athletics,Meyer Prinstein,USA,Men,Long Jump,Silver,United States
+288,1900,Paris,Athletics,Athletics,Emile Torcheboeuf,FRA,Men,"Long Jump, Standing",Bronze,France
+289,1900,Paris,Athletics,Athletics,Ray Ewry,USA,Men,"Long Jump, Standing",Gold,United States
+290,1900,Paris,Athletics,Athletics,Irving Baxter,USA,Men,"Long Jump, Standing",Silver,United States
+291,1900,Paris,Athletics,Athletics,Ernst Fast,SWE,Men,Marathon,Bronze,Sweden
+292,1900,Paris,Athletics,Athletics,Michel Theato,FRA,Men,Marathon,Gold,France
+293,1900,Paris,Athletics,Athletics,Emile Champion,FRA,Men,Marathon,Silver,France
+294,1900,Paris,Athletics,Athletics,Carl Albert Andersen,NOR,Men,Pole Vault,Bronze,Norway
+295,1900,Paris,Athletics,Athletics,Irving Baxter,USA,Men,Pole Vault,Gold,United States
+296,1900,Paris,Athletics,Athletics,Meredith Bright Colkett,USA,Men,Pole Vault,Silver,United States
+297,1900,Paris,Athletics,Athletics,Robert Garrett,USA,Men,Shot Put,Bronze,United States
+298,1900,Paris,Athletics,Athletics,Richard Sheldon,USA,Men,Shot Put,Gold,United States
+299,1900,Paris,Athletics,Athletics,Josiah Mccracken,USA,Men,Shot Put,Silver,United States
+300,1900,Paris,Athletics,Athletics,Lewis Pendleton Sheldon,USA,Men,Triple Jump,Bronze,United States
