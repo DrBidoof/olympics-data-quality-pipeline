@@ -1,5 +1,8 @@
 import great_expectations as gx
 import pandas as pd
+import os
+import json
+from datetime import datetime
 from great_expectations.exceptions import DataContextError
 
 CSV_PATH = r"C:\Users\dartb\OneDrive\Documents\health infomatics\projects\python\1.olympic pipe line\olympics-data-quality-pipeline\data\sample\countries_sample.csv"
@@ -46,8 +49,26 @@ def main():
     context.suites.add_or_update(suite)
 
     # validate
-    results = validator.validate()
     validator.result_format = "SUMMARY"
+    results = validator.validate()
+
+    # --- SAVE VALIDATION EVIDENCE (JSON) ---
+    # Get project root (parent of src/)
+    script_dir = os.path.dirname(os.path.abspath(__file__))   # .../src
+    project_root = os.path.dirname(script_dir)                # project root
+
+    out_dir = os.path.join(project_root, "reports", "validations")
+    os.makedirs(out_dir, exist_ok=True)
+
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    out_path = os.path.join(out_dir, f"countries_{timestamp}.json")
+
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(results.to_json_dict(), f, indent=2)
+
+    print(f"Saved validation JSON to: {out_path}")
+
+
     print("Validation successful:", results["success"])
 
     for r in results["results"]:
