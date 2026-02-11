@@ -11,6 +11,8 @@ from great_expectations.exceptions import DataContextError
 
 SUITE_NAME = "summer_suite"
 DS_NAME = "pandas_tmp"  
+DEFAULT_SUMMER_CSV = r"C:\Users\dartb\OneDrive\Documents\health infomatics\projects\python\1.olympic pipe line\olympics-data-quality-pipeline\data\sample\summer_sample.csv"
+
 
 REQUIRED_COLS = [
     "Year",
@@ -70,7 +72,8 @@ def normalize_code(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def main(csv_path: str, reports_root: str = "reports/validations") -> int:
+def main(csv_path: str = DEFAULT_SUMMER_CSV,
+    reports_root: str = "reports/validations",) -> int:
     context = gx.get_context(mode="file")
 
     # Step 4 requirement: read CSV with index_col=0
@@ -139,8 +142,9 @@ if __name__ == "__main__":
     import argparse
 
     ap = argparse.ArgumentParser(description="Great Expectations validation for Summer dataset")
-    ap.add_argument("--input", required=True, help="Path to summer CSV")
+    ap.add_argument("--input", default=None, help="Path to summer CSV (optional)")
     ap.add_argument("--reports", default="reports/validations", help="Reports output directory")
     args = ap.parse_args()
 
-    raise SystemExit(main(args.input, args.reports))
+    raise SystemExit(main(args.input or DEFAULT_SUMMER_CSV, args.reports))
+

@@ -1,0 +1,94 @@
+{
+  "expectations": [
+    {
+      "id": "e877ec5a-431d-4f8c-a59d-b422d5d4a3ee",
+      "kwargs": {
+        "column_list": [
+          "Country",
+          "Code",
+          "Population",
+          "GDP per Capita"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_table_columns_to_match_ordered_list"
+    },
+    {
+      "id": "8c3b4d8d-ee37-4791-85ab-e841265920e7",
+      "kwargs": {
+        "column": "Country"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "823d0e18-9a64-4330-8e69-26f7a35caaef",
+      "kwargs": {
+        "column": "Country"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "62cb1916-36a3-45bd-aae5-fd47a12c8242",
+      "kwargs": {
+        "column": "Code"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "585041c3-735a-48bd-b52c-25e325b8c792",
+      "kwargs": {
+        "column": "Code"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "78ece83f-91f2-4fb2-954f-353dd9b580b7",
+      "kwargs": {
+        "column": "Code",
+        "regex": "^[A-Z]{3}$"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "ed5c8d8e-56b0-4828-bdc0-14c485827557",
+      "kwargs": {
+        "column": "Population",
+        "max_value": 2000000000.0,
+        "min_value": 1.0,
+        "mostly": 0.99
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "d103e7ec-decd-4886-a3e9-8e7360885acb",
+      "kwargs": {
+        "column": "GDP per Capita",
+        "max_value": 300000.0,
+        "min_value": 1.0,
+        "mostly": 0.99
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    }
+  ],
+  "id": "4a742a47-f0e3-487b-934f-587d0acfa607",
+  "meta": {
+    "great_expectations_version": "1.11.3"
+  },
+  "name": "countries_suite",
+  "notes": null
+}

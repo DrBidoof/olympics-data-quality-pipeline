@@ -1,0 +1,5 @@
+from_code,to_code,notes
+SRB,SCG,Align Summer (modern Serbia) to Countries legacy code (Serbia and Montenegro)
+TTO,TRI,Align ISO/IOC code to Countries FIFA-style code
+ROU,ROM,Align ISO/IOC code to Countries FIFA-style code
+SGP,SIN,Map IOC/ISO to Countries legacy/FIFA-style

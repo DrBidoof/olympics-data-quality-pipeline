@@ -1,0 +1,105 @@
+{
+  "expectations": [
+    {
+      "id": "6b609da8-0aed-4b39-8be5-04c6d5d8d1cf",
+      "kwargs": {
+        "column_list": [
+          "Year",
+          "City",
+          "Sport",
+          "Discipline",
+          "Athlete",
+          "Code",
+          "Gender",
+          "Event",
+          "Medal",
+          "Country"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_table_columns_to_match_ordered_list"
+    },
+    {
+      "id": "beb69069-4119-4c54-86cd-ad1e54782666",
+      "kwargs": {
+        "column": "Year",
+        "max_value": 2026.0,
+        "min_value": 1896.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "45e9aa8d-23b8-42a9-b7b6-766bd5423150",
+      "kwargs": {
+        "column": "Athlete"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "4aa70cb3-1d02-4aa2-b67b-9d3e5b32817c",
+      "kwargs": {
+        "column": "Gender",
+        "value_set": [
+          "Men",
+          "Women"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "28390143-3e8d-4393-a636-ddd18b601b98",
+      "kwargs": {
+        "column": "Code"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "6f2e5315-95a5-4691-9952-3764209f37d6",
+      "kwargs": {
+        "column": "Code",
+        "regex": "^[A-Z]{3}$"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "2808e3f4-5432-49e3-9a9d-ca6a42a1d838",
+      "kwargs": {
+        "column": "Medal",
+        "value_set": [
+          "Gold",
+          "Silver",
+          "Bronze"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "e1b665ad-796d-415b-bfb0-3bb5b31f31e2",
+      "kwargs": {
+        "column": "Country"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    }
+  ],
+  "id": "3cbcfa38-137d-4dda-9501-41fd15fb4d5f",
+  "meta": {
+    "great_expectations_version": "1.11.3"
+  },
+  "name": "summer_suite",
+  "notes": null
+}
