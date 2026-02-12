@@ -73,6 +73,31 @@ def _read_csv(path: Path) -> pd.DataFrame:
         df = df.drop(columns=[df.columns[0]])
     return df
 
+def _drop_extra_cols_for_table(df: pd.DataFrame, table: str) -> pd.DataFrame:
+    """
+    Keep only the columns that exist in the target table schema (based on our DDL design).
+    This avoids errors when CSVs contain extra columns like quarantine_reason in clean tables.
+    """
+    expected = {
+        "countries_clean": ["country", "code", "population", "gdp_per_capita"],
+        "countries_quarantine": ["country", "code", "population", "gdp_per_capita", "quarantine_reason"],
+        "summer_clean": ["year", "city", "sport", "discipline", "athlete", "code", "gender", "event", "medal", "country"],
+        "summer_quarantine": ["year", "city", "sport", "discipline", "athlete", "code", "gender", "event", "medal", "country", "quarantine_reason"],
+    }
+
+    cols = expected.get(table)
+    if not cols:
+        return df
+
+    # keep only cols that exist in df; add missing ones as NULL to keep insert deterministic
+    out = df.copy()
+    for c in cols:
+        if c not in out.columns:
+            out[c] = pd.NA
+
+    out = out[cols]  # reorder
+    return out
+
 
 def _strip_and_nullify(df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -183,11 +208,24 @@ def main() -> int:
         if not p.exists():
             raise SystemExit(f"ERROR: Missing required file: {p} ({name})")
 
-    # Read + normalize (IMPORTANT: outside the loop)
-    countries_clean = _normalize_cols(_strip_and_nullify(_read_csv(paths["countries_clean"])))
-    countries_quarantine = _normalize_cols(_strip_and_nullify(_read_csv(paths["countries_quarantine"])))
-    summer_clean = _normalize_cols(_strip_and_nullify(_read_csv(paths["summer_clean"])))
-    summer_quarantine = _normalize_cols(_strip_and_nullify(_read_csv(paths["summer_quarantine"])))
+    #
+        # Read + normalize + align to table schemas
+    countries_clean = _drop_extra_cols_for_table(
+        _normalize_cols(_strip_and_nullify(_read_csv(paths["countries_clean"]))),
+        "countries_clean",
+    )
+    countries_quarantine = _drop_extra_cols_for_table(
+        _normalize_cols(_strip_and_nullify(_read_csv(paths["countries_quarantine"]))),
+        "countries_quarantine",
+    )
+    summer_clean = _drop_extra_cols_for_table(
+        _normalize_cols(_strip_and_nullify(_read_csv(paths["summer_clean"]))),
+        "summer_clean",
+    )
+    summer_quarantine = _drop_extra_cols_for_table(
+        _normalize_cols(_strip_and_nullify(_read_csv(paths["summer_quarantine"]))),
+        "summer_quarantine",
+    )
 
     # Optional: ensure numeric types insert cleanly
     if "year" in summer_clean.columns:
