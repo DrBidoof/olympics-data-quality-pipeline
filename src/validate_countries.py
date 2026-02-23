@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 from datetime import datetime
+from pathlib import Path
 
 import pandas as pd
 import great_expectations as gx
@@ -14,12 +15,43 @@ CSV_PATH = r"C:\Users\dartb\OneDrive\Documents\health infomatics\projects\python
 SUITE_NAME = "countries_suite"
 DS_NAME = "pandas_tmp"
 
+NUMERIC_COLS = ["Population", "GDP per Capita"]
+
+
+def coerce_numeric_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Ensure numeric columns are truly numeric so GX 'between' checks don't crash.
+    Handles blanks, whitespace, and values like "1,234".
+    """
+    df = df.copy()
+
+    for col in NUMERIC_COLS:
+        if col not in df.columns:
+            continue
+
+        # Normalize to string, remove commas, strip whitespace, convert blanks to NA
+        s = (
+            df[col]
+            .astype(str)
+            .str.replace(",", "", regex=False)
+            .str.strip()
+            .replace({"": pd.NA, "nan": pd.NA, "None": pd.NA})
+        )
+
+        # Convert to numeric; invalid parses become NaN
+        df[col] = pd.to_numeric(s, errors="coerce")
+
+    return df
+
 
 def main() -> int:
     context = gx.get_context(mode="file")
 
     # Step requirement: read with index_col=0
     df = pd.read_csv(CSV_PATH, index_col=0)
+
+    # ✅ IMPORTANT: coerce numeric cols before GX batch is created
+    df = coerce_numeric_columns(df)
 
     # get-or-create datasource
     try:
@@ -49,6 +81,7 @@ def main() -> int:
     validator.expect_column_values_to_be_unique("Code")
     validator.expect_column_values_to_match_regex("Code", r"^[A-Z]{3}$")
 
+    # Now safe: column is numeric (float) and min/max are numeric types too
     validator.expect_column_values_to_be_between(
         "Population",
         min_value=1,
@@ -58,8 +91,8 @@ def main() -> int:
 
     validator.expect_column_values_to_be_between(
         "GDP per Capita",
-        min_value=1,
-        max_value=300_000,
+        min_value=1.0,
+        max_value=300_000.0,
         mostly=0.99,
     )
     # ------------------------------------------------
@@ -72,16 +105,16 @@ def main() -> int:
     results = validator.validate()
 
     # ---------------- Save JSON evidence ----------------
-    script_dir = os.path.dirname(os.path.abspath(__file__))  # src/
-    project_root = os.path.dirname(script_dir)
+    script_dir = Path(__file__).resolve().parent  # src/
+    project_root = script_dir.parent
 
-    out_dir = os.path.join(project_root, "reports", "validations")
-    os.makedirs(out_dir, exist_ok=True)
+    out_dir = project_root / "reports" / "validations"
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    out_path = os.path.join(out_dir, f"countries_{ts}.json")
+    out_path = out_dir / f"countries_{ts}.json"
 
-    with open(out_path, "w", encoding="utf-8") as f:
+    with out_path.open("w", encoding="utf-8") as f:
         json.dump(results.to_json_dict(), f, indent=2)
 
     print(f"Saved validation JSON to: {out_path}")

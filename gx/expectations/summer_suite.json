@@ -56,7 +56,8 @@
     {
       "id": "28390143-3e8d-4393-a636-ddd18b601b98",
       "kwargs": {
-        "column": "Code"
+        "column": "Code",
+        "mostly": 0.998
       },
       "meta": {},
       "severity": "critical",
@@ -89,7 +90,8 @@
     {
       "id": "e1b665ad-796d-415b-bfb0-3bb5b31f31e2",
       "kwargs": {
-        "column": "Country"
+        "column": "Country",
+        "mostly": 0.97
       },
       "meta": {},
       "severity": "critical",
