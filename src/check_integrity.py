@@ -12,6 +12,9 @@ DEFAULT_COUNTRIES_CSV = r"C:\Users\dartb\OneDrive\Documents\health infomatics\pr
 DEFAULT_SUMMER_CSV = r"C:\Users\dartb\OneDrive\Documents\health infomatics\projects\python\1.olympic pipe line\olympics-data-quality-pipeline\data\sample\summer_sample.csv"
 DEFAULT_CODE_MAP_CSV = r"C:\Users\dartb\OneDrive\Documents\health infomatics\projects\python\1.olympic pipe line\olympics-data-quality-pipeline\data\reference\code_map.csv"
 
+# Policy
+HISTORICAL_CODE_ALLOWLIST = {"BOH"}  # expand later if needed
+FAIL_ON_NULL_CODES = False          # Step 6 quarantines these
 
 # -------------------------------------------------------
 # Helpers
@@ -82,17 +85,15 @@ def find_bad_code_rows(
 
     code_is_null = summer["Code"].isna()
     code_not_in = ~summer["Code"].isin(valid_codes)
-    bad_mask = code_is_null | code_not_in
 
+    bad_mask = code_is_null | code_not_in
     bad_rows = summer.loc[bad_mask].copy()
 
     bad_total = int(len(bad_rows))
     bad_null_code = int(code_is_null.sum())
     bad_not_in = int((~code_is_null & code_not_in).sum())
 
-    unique_bad_codes = sorted(
-        [c for c in bad_rows["Code"].dropna().unique().tolist()]
-    )
+    unique_bad_codes = sorted([c for c in bad_rows["Code"].dropna().unique().tolist()])
 
     summary: Dict[str, Any] = {
         "run_timestamp": datetime.now().isoformat(),
@@ -106,6 +107,26 @@ def find_bad_code_rows(
         "unique_bad_codes_count": int(len(unique_bad_codes)),
         "unique_bad_codes_sample": unique_bad_codes[:25],
     }
+
+    # --------------------------
+    # Strict failure policy
+    # --------------------------
+    # strict "not-in-countries" codes exclude allowlisted historical codes
+    not_in_codes_strict = [c for c in unique_bad_codes if c not in HISTORICAL_CODE_ALLOWLIST]
+    bad_rows_code_not_in_countries_strict = len(not_in_codes_strict)
+
+    should_fail = False
+    if FAIL_ON_NULL_CODES and bad_null_code > 0:
+        should_fail = True
+    if bad_rows_code_not_in_countries_strict > 0:
+        should_fail = True
+
+    # add policy/evidence fields
+    summary["bad_rows_code_not_in_countries_strict"] = bad_rows_code_not_in_countries_strict
+    summary["unique_bad_codes_strict_sample"] = not_in_codes_strict[:25]
+    summary["historical_code_allowlist"] = sorted(list(HISTORICAL_CODE_ALLOWLIST))
+    summary["fail_on_null_codes"] = FAIL_ON_NULL_CODES
+    summary["should_fail"] = should_fail
 
     return bad_rows, summary
 
@@ -128,7 +149,6 @@ def main(
     countries_df = load_csv(countries_csv)
     summer_df = load_csv(summer_csv)
 
-    # Load mapping
     code_map = load_code_map(code_map_csv)
 
     bad_rows, summary = find_bad_code_rows(
@@ -160,8 +180,13 @@ def main(
     print(f"Bad rows with NULL Code:           {summary['bad_rows_null_code']}")
     print(f"Bad rows Code not in Countries:    {summary['bad_rows_code_not_in_countries']}")
     print(f"Unique bad codes count:            {summary['unique_bad_codes_count']}")
+    print("--- Strict Policy ---")
+    print(f"Historical allowlist:              {summary['historical_code_allowlist']}")
+    print(f"Fail on NULL codes:                {summary['fail_on_null_codes']}")
+    print(f"Bad not-in-countries (strict):     {summary['bad_rows_code_not_in_countries_strict']}")
+    print(f"Should fail (strict):              {summary['should_fail']}")
 
-    return 0 if summary["bad_rows_total"] == 0 else 1
+    return 1 if summary["should_fail"] else 0
 
 
 if __name__ == "__main__":
